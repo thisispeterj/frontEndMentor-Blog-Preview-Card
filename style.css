@@ -110,6 +110,7 @@ main {
 	justify-content: center;
 	align-items: center;
 	min-height: 100dvh;
+	padding: 1rem;
 }
 /* BLOG CARD STYLES */
 .blog-card {
@@ -135,8 +136,19 @@ main {
 }
 .published {
 	font-size: 0.8rem;
-	font-weight: 400;
+	font-weight: 200;
 	margin-bottom: 1rem;
+}
+.blog-link {
+	text-decoration: none;
+	color: var(--clr-black);
+	font-weight: 900;
+	font-size: 1.5rem;
+	transition: color 500ms;
+}
+.blog-link:hover,
+.blog-link:focus {
+	color: var(--clr-yellow);
 }
 .overview {
 	font-family: sans-serif;
